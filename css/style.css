@@ -442,6 +442,10 @@ aside .header__button {
   margin-top: 36px;
 }
 
+aside .header__list {
+  margin-bottom: 30px;
+}
+
 aside .header__list-item {
   margin-top: 15px;
   margin-left: 10px;
@@ -1414,6 +1418,10 @@ aside .header__list-item a {
   display: none;
 }
 
+.inner {
+  padding: 0 30px;
+}
+
 .inner__title {
   font-family: var(--title);
   font-weight: 700;
@@ -1706,7 +1714,7 @@ aside .header__list-item a {
 .kids .img__kids {
   position: absolute;
   top: 25px;
-  right: 23px;
+  left: 125px;
   border: 1px solid #9630D8;
   background: #9630D8;
   color: #fff;
@@ -2654,7 +2662,8 @@ aside .header__list-item a {
     margin: 0 auto;
   }
 
-  .inner .img {
+  .inner .img img {
+    height: 400px;
     max-width: 320px;
     width: 100%;
     position: relative;
@@ -2784,7 +2793,7 @@ aside .header__list-item a {
     min-height: 1px;
     max-width: 640px;
     width: 100%;
-    margin-bottom: -20px;
+    margin-bottom: 3px;
   }
 
   .footer {
@@ -3513,6 +3522,19 @@ aside .header__list-item a {
     right: 15px;
   }
 
+  .inner .calendar {
+    margin-right: 18.5px;
+    width: 29px;
+    height: 22px;
+  }
+
+  .inner .frame {
+    margin-right: 18.5px;
+    width: 29px;
+    height: 22px;
+    margin-bottom: 71px;
+  }
+
   .kids__subtitle {
     font-family: var(--cursive);
     font-weight: 700;
@@ -3954,7 +3976,10 @@ aside .header__list-item a {
     transition: 0.3s;
   }
 
-  .inner .img {
+  .inner .img img {
+    max-width: 400px;
+    width: 100%;
+    height: 400px;
     margin-right: 9px;
   }
 
@@ -3981,6 +4006,29 @@ aside .header__list-item a {
     width: 100%;
     margin: 0;
     margin-right: 40px;
+  }
+
+  .kids .img {
+    position: relative;
+  }
+
+  .kids .img__kids {
+    position: absolute;
+    top: 25px;
+    left: 240px;
+    border: 1px solid #9630D8;
+    background: #9630D8;
+    color: #fff;
+    max-width: 103px;
+    text-align: center;
+    border-radius: 200px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding: 5px 20px;
   }
 
   .btn:hover {
@@ -4138,6 +4186,7 @@ aside .header__list-item a {
     font-size: 18px;
     line-height: 21px;
     font-weight: 500;
+    text-align: center;
     background: transparent;
     border: 1px solid #333333;
     border-radius: 200px;
