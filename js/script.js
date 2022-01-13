@@ -13919,6 +13919,7 @@ $(document).ready(function(){
     $('.slider').slick({
         dots: true,
         arrows: false,
+        slidesToShow: 1,
         responsive:[
             {
                 breakpoint: 976,
